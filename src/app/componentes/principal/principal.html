@@ -1,0 +1,19 @@
+<div class="contenedor">
+  <div class="tarjeta">
+    @for (item of tarjetas; track $index) {
+      <div (click)="item.accion ? item.accion() : null">
+        <div class="icono">
+          <img [src]="item.icono" [alt]="item.alt" />
+        </div>
+        <p class="texto">{{ item.texto | translate }}</p>
+      </div>
+    } @empty {
+      <div>No hay tarjetas disponibles.</div>
+    }
+  </div>
+
+  <div class="selector-idioma">
+    <button (click)="cambiarIdioma('es')">Español</button>
+    <button (click)="cambiarIdioma('en')">English</button>
+  </div>
+</div>

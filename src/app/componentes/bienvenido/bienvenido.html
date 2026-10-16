@@ -1,0 +1,51 @@
+<div class="formulario">
+  <div class="icono-usuario">
+    <img src="/iconos/Background.svg" alt="Icono de usuario" />
+  </div>
+
+  <h1>{{ 'TITLE' | translate }}</h1>
+  <h2>{{ 'LOGIN' | translate }}</h2>
+
+  <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+    @for (campo of campos; track campo.name) {
+      <div class="form">
+        <label [for]="campo.name">{{ campo.label | translate }}:</label>
+        <div class="input-container">
+          <input
+            [id]="campo.name"
+            [formControlName]="campo.name"
+            [type]="campo.name === 'contrasena' && !mostrarContrasena ? 'password' : 'text'"
+            [required]="campo.required"
+            [class.error]="
+              formulario.get(campo.name)?.invalid && formulario.get(campo.name)?.touched
+            "
+          />
+          @if (campo.name === 'contrasena') {
+            <img
+              src="/iconos/Visualizar.svg"
+              alt="Mostrar contraseña"
+              class="icono-visualizar"
+              (click)="alternarVisibilidad()"
+            />
+          }
+        </div>
+        @if (formulario.get(campo.name)?.invalid && formulario.get(campo.name)?.touched) {
+          <div class="mensaje-error">{{ 'REQUIERED' | translate }}</div>
+        }
+      </div>
+    }
+
+    <div class="texto">
+      <label class="recuerdame"> <input type="checkbox" /> {{ 'REMEMBER_ME' | translate }} </label>
+    </div>
+
+    <button type="submit">{{ 'ACCESS' | translate }}</button>
+  </form>
+
+  <p>{{ 'FORGOT_PASSWORD' | translate }}</p>
+
+  <div class="selector-idioma">
+    <button (click)="cambiarIdioma('es')">Español</button>
+    <button (click)="cambiarIdioma('en')">English</button>
+  </div>
+</div>

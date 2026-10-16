@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="734.44312"
+   height="684.14972"
+   viewBox="0 0 734.44312 684.14972"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="Background.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.73568282"
+     inkscape:cx="336.42216"
+     inkscape:cy="339.14072"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Círculo de fondo -->
+  <ellipse
+     cx="367.22156"
+     cy="342.07486"
+     fill="url(#paint0_linear_8_3919)"
+     id="circle1"
+     style="fill:url(#paint0_linear_8_3919);stroke-width:5.25073"
+     rx="367.22156"
+     ry="342.07486" />
+  <!-- Icono del usuario -->
+  <path
+     d="m 371.29939,201.61548 c 23.88948,0 43.44087,18.78929 43.44087,41.75417 0,22.96488 -19.55139,41.75475 -43.44087,41.75475 -23.88948,0 -43.44087,-18.78987 -43.44087,-41.75475 0,-22.96488 19.55139,-41.75417 43.44087,-41.75417 z m 0,208.77258 c 58.64218,0 125.97852,26.93177 130.32261,41.75417 H 240.97679 c 4.9972,-15.03166 71.89613,-41.75417 130.3226,-41.75417 z m 0,-250.52732 c -48.00066,0 -86.88173,37.37046 -86.88173,83.50891 0,46.13903 38.88107,83.50892 86.88173,83.50892 48.00066,0 86.88174,-37.36989 86.88174,-83.50892 0,-46.13845 -38.88108,-83.50891 -86.88174,-83.50891 z m 0,208.77257 c -57.99505,0 -173.76347,27.97582 -173.76347,83.50892 v 41.75474 h 347.52695 v -41.75474 c 0,-55.5331 -115.76842,-83.50892 -173.76348,-83.50892 z"
+     fill="#ffffff"
+     id="path1"
+     style="stroke-width:5.86923" />
+  <!-- Definición del gradiente -->
+  <defs
+     id="defs2">
+    <linearGradient
+       id="paint0_linear_8_3919"
+       x1="215.5"
+       y1="0"
+       x2="215.5"
+       y2="135"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4403199,0,0,5.0677757,-805.16731,7.171875e-6)">
+      <stop
+         stop-color="#4C2732"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#502733"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+</svg>

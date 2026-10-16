@@ -1,0 +1,16 @@
+{
+  "TITLE": "Application Title",
+  "LOGIN": "Login",
+  "EMAIL": "Email",
+  "PASSWORD": "Password",
+  "REMEMBER_ME": "Remember me",
+  "ACCESS": "Access",
+  "FORGOT_PASSWORD": "Forgot your password?",
+  "REQUIERED": "This field is required",
+  "MY_ACCOUNT": "My account",
+  "REGISTER": "Register",
+  "NOTIFICATIONS": "Notifications",
+  "CHATBOT": "ChatBot",
+  "PRIVACY_NOTICE": "Privacy notice",
+  "LOGOUT": "Logout"
+}

@@ -1,0 +1,93 @@
+.formulario {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 280px;
+  margin: 100px auto;
+  position: relative;
+  padding-top: 100px;
+}
+
+.icono-usuario {
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icono-usuario img {
+  width: 150px;
+  height: 150px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  color: #3f4647;
+}
+
+.input-container {
+  position: relative;
+}
+
+.icono-visualizar {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.recuerdame {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #3f4647;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #7f8c8d;
+  border-radius: 5px;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.mensaje-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button {
+  background: #b98c57;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: #356f6f;
+}
+
+.selector-idioma {
+  margin-top: 20px;
+}
+
+.selector-idioma button {
+  background: #65c4be;
+  padding: 5px 10px;
+  margin: 0 5px;
+}

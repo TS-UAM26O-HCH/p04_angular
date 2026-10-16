@@ -1,0 +1,16 @@
+{
+  "TITLE": "Título de la aplicación",
+  "LOGIN": "Inicio de sesión",
+  "EMAIL": "Correo electrónico",
+  "PASSWORD": "Contraseña",
+  "REMEMBER_ME": "Recuérdame",
+  "ACCESS": "Acceder",
+  "FORGOT_PASSWORD": "¿Olvidaste tu contraseña?",
+  "REQUIERED": "Este campo es requerido",
+  "MY_ACCOUNT": "Mi cuenta",
+  "REGISTER": "Registro",
+  "NOTIFICATIONS": "Notificaciones",
+  "CHATBOT": "ChatBot",
+  "PRIVACY_NOTICE": "Aviso de privacidad",
+  "LOGOUT": "Cerrar sesión"
+}
